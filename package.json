@@ -1,0 +1,26 @@
+{
+  "name": "proximity-labs-be-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yashbir/proximity-labs-be-challenge.git"
+  },
+  "keywords": [
+    "proximity",
+    "labs"
+  ],
+  "author": "yashbir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yashbir/proximity-labs-be-challenge/issues"
+  },
+  "homepage": "https://github.com/yashbir/proximity-labs-be-challenge#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

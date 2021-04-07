@@ -1,0 +1,10 @@
+# Dependency directories
+node_modules/
+
+# Npm cache directory
+.npm
+
+# Dot env files
+.env
+.env.test
+.vscode/
