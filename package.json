@@ -1,26 +1,36 @@
 {
-  "name": "proximity-labs-be-challenge",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yashbir/proximity-labs-be-challenge.git"
-  },
-  "keywords": [
-    "proximity",
-    "labs"
-  ],
-  "author": "yashbir",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/yashbir/proximity-labs-be-challenge/issues"
-  },
-  "homepage": "https://github.com/yashbir/proximity-labs-be-challenge#readme",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+    "name": "proximity-labs-be-challenge",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/yashbir/proximity-labs-be-challenge.git"
+    },
+    "keywords": [
+        "proximity",
+        "labs"
+    ],
+    "author": "yashbir",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/yashbir/proximity-labs-be-challenge/issues"
+    },
+    "homepage": "https://github.com/yashbir/proximity-labs-be-challenge#readme",
+    "dependencies": {
+        "compression": "^1.7.4",
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "express-winston": "^4.1.0",
+        "lowdb": "^1.0.0",
+        "winston": "^3.3.3"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    }
 }

@@ -1,0 +1,80 @@
+{
+    "tags": [
+        {
+            "tag": "computer",
+            "instructor": "Instructor1"
+        },
+        {
+            "tag": "networking",
+            "instructor": "Instructor2"
+        }
+    ],
+    "subjects": [
+        {
+            "name": "Data Structures",
+            "instructor": "Instructor1"
+        },
+        {
+            "name": "Computer Networks",
+            "instructor": "Instructor2"
+        }
+    ],
+    "content": [
+        {
+            "type": "video",
+            "data": "VIDEO DATA",
+            "title": "Arrays",
+            "courses": ["Data Structures and Algorithms"],
+            "subjects": ["Data Structures"],
+            "tags": ["computer", "networking"],
+            "instructor": "Instructor1",
+            "views": 0
+        },
+        {
+            "type": "webinar",
+            "data": "WEBINAR DATA",
+            "title": "Disjoint Sets",
+            "courses": ["Data Structures and Algorithms"],
+            "subjects": ["Data Structures"],
+            "tags": ["computer", "networking"],
+            "instructor": "Instructor1",
+            "views": 0
+        },
+        {
+            "type": "video",
+            "data": "VIDEO DATA",
+            "title": "Linked Lists",
+            "courses": ["Data Structures and Algorithms"],
+            "subjects": ["Data Structures"],
+            "tags": ["computer", "networking"],
+            "instructor": "Instructor1",
+            "views": 0
+        },
+        {
+            "type": "video",
+            "data": "VIDEO DATA",
+            "title": "VPC",
+            "courses": ["Advanced Computer Networks"],
+            "subjects": ["Computer Networks"],
+            "tags": ["computer", "networking"],
+            "instructor": "Instructor2",
+            "views": 0
+        }
+    ],
+    "courses": [
+        {
+            "name": "Advanced Computer Networks",
+            "subjects": ["Computer Networks"],
+            "tags": ["networking", "computer"],
+            "instructor": "Instructor1",
+            "views": 0
+        },
+        {
+            "name": "Data Structures and Algorithms",
+            "subjects": ["Data Structures"],
+            "tags": ["networking", "computer"],
+            "instructor": "Instructor2",
+            "views": 0
+        }
+    ]
+}
